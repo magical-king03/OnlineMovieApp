@@ -1,4 +1,4 @@
-let API = 'http://www.omdbapi.com/?apikey=d2099c3c&t='
+let API = 'https://www.omdbapi.com/?apikey=d2099c3c&t='
 let loaderStatus = false
 
 let img = document.getElementById('img')
