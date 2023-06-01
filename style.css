@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+body{
+    background-color: #18191a;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 900px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+.input{
+    padding: 18px;
+    width: 550px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border: none;
+    font-size: 16px;
+    border: 1px solid transparent;
+    background-color: #3a3b3c;
+    color: white;
+}
+.input:focus{
+    outline: none;
+    border: 1px solid rgb(177, 177, 177);
+}
+.btn{
+    padding: 12px 32px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(177, 177, 177);
+    border: 1px solid transparent;
+}
+.intro{
+    width: 900px;
+    color: white;
+    margin: 40px auto;
+    text-align: center;
+}
+.intro h1{
+    font-size: 46px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.intro p{
+    font-size: 25px;
+    color: rgb(177, 177, 177);
+}
+.loader {
+    border: 2px solid #f3f3f3; /* Light grey */
+    border-top: 2px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: auto;
+  }
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.movie-container{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    color: white;
+    margin: 40px auto;
+}
+.content{
+    width: 500px;
+}
+.movie-img{
+    position: relative;
+    width: 500px;
+}
+.img{
+    width: 450px;
+    height: 100%;
+}
+.ratings{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fffffff3;
+    padding: 4px 12px;
+    color: black;
+    border-radius: 8px;
+    margin: 12px;
+    font-size: 14px;
+    display: inline-block;
+}
+.genre{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(177, 177, 177);
+    padding: 4px 12px;
+    color: black;
+    border-radius: 8px;
+    margin: 12px;
+    font-size: 14px;
+    display: inline-block;
+}
+.d-none{
+    display: none;
+}
+.error-container{
+    width: 900px;
+    margin: 40px auto;
+    text-align: center;
+    color: rgb(177, 177, 177);
+    font-size: 40px;
+}

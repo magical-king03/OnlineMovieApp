@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Movie App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <input type="text" id="movieName" placeholder="Enter the movie name" class="input">
+            <button class="btn" onclick="findMovie()">Search</button>
+        </div>
+    </section>
+
+    <section>
+        <div class="intro" id="intro">
+            <h1>Want the complete details of the movie?</h1>
+            <p>Search for any movie you want. You can have many cool stuffs over here about the movie.</p>
+        </div>
+    </section>
+
+    <div id="loader"></div>
+
+    <div class="movie-container" id="movieContainer">
+        <div class="content"> 
+            <h1 id="title"></h1>
+            <span id="year">2016</span>
+            <p id="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consectetur voluptate necessitatibus!</p>
+            <p>Actors: <span id="actors">loprem</span></p>
+            <p>Director: <span id="director">facfa</span></p>
+            <p>Awards: <span id="awards">gvafgvadvgd</span></p>
+            <p>Collection: <span id="collection">513218541</span></p>
+            <p>Writer: <span id="writer">afgfv</span></p>
+        </div>
+        <div class="movie-img">
+            <img class="img" id="img" src="" alt="">
+            <p class="ratings">IMDB: <span id="ratings"></span></p>
+            <p class="genre" id="genre"></p>
+        </div>
+    </div>
+
+    <div class="error-container" id="errorMovie">
+        <h1>Movie not Found!!!</h1>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
